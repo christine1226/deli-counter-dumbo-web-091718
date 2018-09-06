@@ -8,7 +8,7 @@ def line(array)
 else
     current_line = "The line is currently:"
     array.each.with_index(1) do |value, index|
-    current_line += "#{index}. #{value}"
+    current_line += " #{index}. #{value}"
   end
   puts current_line
   end
